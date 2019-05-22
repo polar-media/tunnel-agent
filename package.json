@@ -1,11 +1,11 @@
 {
   "author": "Mikeal Rogers <mikeal.rogers@gmail.com> (http://www.futurealoof.com)",
-  "name": "tunnel-agent",
+  "name": "@polar-media/tunnel-agent",
   "license": "Apache-2.0",
   "description": "HTTP proxy tunneling agent. Formerly part of mikeal/request, now a standalone module.",
-  "version": "0.6.1",
+  "version": "0.6.2",
   "repository": {
-    "url": "https://github.com/mikeal/tunnel-agent"
+    "url": "git+https://github.com/mikeal/tunnel-agent.git"
   },
   "main": "index.js",
   "files": [
@@ -18,5 +18,12 @@
   "optionalDependencies": {},
   "engines": {
     "node": "*"
+  },
+  "bugs": {
+    "url": "https://github.com/mikeal/tunnel-agent/issues"
+  },
+  "homepage": "https://github.com/mikeal/tunnel-agent#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
